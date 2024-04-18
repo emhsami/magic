@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    height: 300px;
+    width: 980px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 50px;
+}
+
+.main-wrapper * {
+    position: absolute;
+}
+
+.frame-1-text-3, .logo, .model, .circle, .teeth, .frame-2-text-1, .star {
+    opacity: 0;
+}
+
+.model {
+    left: -88px;
+}
+
+.frame-1-text-1, .frame-1-text-2, .cta {
+    left: -657px;
+}
+
+.frame-1-text-1, .frame-1-text-2 {
+    scale: 0.8;
+}
+
+.frame-1-text-3 {
+    scale: 0.2;
+    left: -50px;
+}
+
+.ray {
+    left: 570px;
+    top: -46px;
+    scale: 1.1;
+    opacity: 0;
+}
+
+.product {
+    left: 400px;
+}
+
+.frame-2-text-1 {
+    scale: 0.2;
+    top: 25px;
+    left: -310px;
+}
+
+.star-2 {
+    left: -98px;
+    top: 32px;
+}
+.star-3 {
+    left: -56px;
+    top: 97px;
+    scale: 0.5;
+}

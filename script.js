@@ -1,0 +1,21 @@
+var tl = gsap.timeline();
+
+gsap.to(".ray", {opacity: 0.7, delay: 1.5})
+gsap.to(".ray", {delay: -0.6, rotate: 720, duration: 15, ease: "none", delay: -0.5})
+gsap.to(".star", {delay: -0.6, rotate: -720, duration: 15, ease: "none", delay: -0.5})
+gsap.to(".star-2", {delay: -0.6, rotate: -720, duration: 15, ease: "none", delay: -0.5})
+gsap.to(".star-3", {delay: -0.6, rotate: 720, duration: 15, ease: "none", delay: -0.5})
+
+tl.to(".logo", {opacity: 1, delay: 0.2})
+tl.to(".model", {opacity: 1, delay: -0.1})
+tl.to(".frame-1-text-1", {left: -20, delay: 0.1, ease: "back.out(1)"})
+tl.to(".frame-1-text-2", {left: -20, delay: 0.05, ease: "back.out(1)"})
+tl.to(".cta", {left: -100})
+tl.to(".frame-1-text-1, .frame-1-text-2", {opacity: 0, delay: 1.5})
+tl.to(".frame-1-text-3", {opacity: 1, scale: 1})
+tl.to(" .frame-1-text-3, .model", {opacity: 0, delay: 2})
+tl.to(".circle, .teeth, .star", {opacity: 1, delay: -0.5})
+tl.to(".cta", {left: 660})
+tl.to(".frame-2-text-1", {opacity: 1, scale: 1.5})
+tl.to(".teeth", {opacity: 0})
+tl.to(".product", {left: 0, duration: 0.2, delay: -0.5})
